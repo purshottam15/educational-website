@@ -1,0 +1,152 @@
+/* achievement================== */
+.award{
+   background-color: #1f2641;
+   height: 25rem;
+   margin-bottom: 6rem;
+}
+.award_container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+
+}
+.award_cart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+.actual_cart{
+    background-color: ;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 1.6rem;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.icon1 i{
+ font-size: 3rem;
+}
+
+
+/* ===========team member=========== */
+.team{
+    margin-top: 2rem;
+}
+.team_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.team_social{
+    /* display: flex; */
+    flex-direction: column;
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    background-color: #424890;
+    width: 3rem;
+    height: 11rem;
+    border-radius: 10px;
+    /* transition: all 800ms ease-in-out; */
+    /* display: none; */
+}
+.team_social i{
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+
+.team_image{
+    height: 13rem;
+    overflow: hidden;
+}
+.team_member{
+    border: 1px solid white;
+    height: 20rem;
+    text-align: center;
+    padding: 8px;
+    background: transparent;
+    /* position: relative; */
+    
+    
+}
+.team h1{
+    text-align: center;
+    margin: 4rem 0rem;
+}
+.team_member:hover{
+    background-color: #424890;
+    position: relative;
+    
+}
+
+
+.team_member h4{
+    margin: 1rem 0rem;
+}
+
+
+/* responsive for tablet=========== */
+@media  screen and (max-width:1024px){
+    .award_container{
+        grid-template-columns: 1fr;
+        margin-bottom: ;
+        /* gap: 0.2rem; */
+    }
+    .award{
+        height: 70rem;
+     
+    }
+    .team_member{
+        height: 20rem;
+    }
+    .team h4{
+        margin: 1rem 0rem;
+        /* margin-top: -1rem; */
+    }
+    .team_container{
+        gap: 0.8rem;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    .team{
+        /* margin-top: -5rem; */
+    }
+    .team_social i{
+        font-size: 1.7rem;
+        margin: 0.5rem 0rem;
+    }
+    .team_social{
+        height: 8rem;
+    }
+  
+}
+
+
+/* responsive for mobile========== */
+@media  screen and (max-width:600px){
+    .award{
+       
+        margin-bottom: -8rem;
+     }
+     .actual_cart{
+        width: 95%;
+        margin-bottom: 1rem;
+     }
+     .award_cart{
+        gap: 0.1rem;
+     }
+     .team_member img{
+        height:11rem;
+     }
+     .award_cart{
+        grid-template-columns: 1fr 1fr;
+     }
+   
+.award_right{
+ width: 80%;
+}
+}
